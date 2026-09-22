@@ -386,23 +386,17 @@ footer {
 }
 
 .quiet-blog-link {
-  position: absolute;
-  top: 50%;
-  right: 24px;
-  color: #d4d4d8;
-  font-size: 11px;
-  letter-spacing: 0.06em;
-  opacity: 0.48;
-  transform: translateY(-50%);
-  transition:
-    color 160ms ease,
-    opacity 160ms ease;
+  display: block;
+  width: fit-content;
+  margin: 10px auto 0;
+  color: var(--soft);
+  font-size: 14px;
+  transition: color 160ms ease;
 }
 
 .quiet-blog-link:hover,
 .quiet-blog-link:focus-visible {
-  color: var(--muted);
-  opacity: 1;
+  color: var(--foreground);
 }
 
 .blog-main {
@@ -614,14 +608,6 @@ footer {
 
   .pub-year {
     margin-bottom: 0;
-  }
-
-  .quiet-blog-link {
-    position: static;
-    display: block;
-    width: fit-content;
-    margin: 12px auto 0;
-    transform: none;
   }
 
   .blog-main {
