@@ -15,7 +15,7 @@
     >
     <meta property="og:type" content="website">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=3">
+    <link rel="stylesheet" href="styles.css?v=4">
   </head>
   <body>
     <header class="site-nav">
@@ -37,7 +37,7 @@
             interrupted and non-linear time series, state-space models, and
             statistical software for applied researchers.
           </p>
-          <div class="actions" aria-label="Primary links">
+          <div class="actions" role="group" aria-label="Primary links">
             <a class="button secondary" href="mailto:hrgodmann@gmail.com">Email</a>
             <a class="button secondary" href="https://github.com/hrgodmann">GitHub</a>
             <a class="button secondary" href="assets/henrik-godmann-cv.pdf" download="Henrik_R_Godmann_CV.pdf">Download CV</a>
@@ -162,7 +162,7 @@
       <section class="section contact-section" id="contact">
         <p class="eyebrow">Contact</p>
         <h2>For research, teaching, software, or JASP-related work.</h2>
-        <div class="actions centered" aria-label="Contact links">
+        <div class="actions centered" role="group" aria-label="Contact links">
           <a class="button secondary" href="mailto:hrgodmann@gmail.com">hrgodmann@gmail.com</a>
           <a class="button secondary" href="mailto:henrik@jasp-services.com">JASP Services</a>
           <a class="button secondary" href="assets/henrik-godmann-cv.pdf" download="Henrik_R_Godmann_CV.pdf">Download CV</a>
@@ -170,8 +170,9 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="site-footer">
       <span>Henrik R. Godmann &copy; 2026</span>
+      <a class="quiet-blog-link" href="blog/">Blog</a>
     </footer>
   </body>
 </html>
