@@ -28,20 +28,19 @@ Use `<p>...</p>` for paragraphs and `<h2>...</h2>` for section headings.
 
 ## 3. Add the post to the blog page
 
-Open `blog/index.html`. Replace the `blog-empty` block when publishing the first
-post. For every post, add this inside the `blog-list` section:
+Open `blog/index.html`. For every post, add this inside the `blog-list` section:
 
 ```html
 <article class="blog-entry">
-  <time datetime="2026-09-23">September 23, 2026</time>
   <a href="posts/2026-09-23-short-post-title.html">
     <h2>Your post title</h2>
-    <p>Your one-sentence description.</p>
+    <p>The first sentence of your post.</p>
   </a>
 </article>
 ```
 
-Put the newest post first.
+Put the newest post first. The three trailing dots are added automatically by
+the stylesheet, so do not type them into the sentence yourself.
 
 ## 4. Preview and publish
 
